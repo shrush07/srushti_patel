@@ -535,7 +535,7 @@ function HeroSection() {
                             <li className="post post-categories" data-category="Design">
                                 <article>
                                     <figure>
-                                        <img className="pg-img" src="srushti_patel.gif" alt="Loading..." />
+                                        <img className="pg-img" src="SuccessSquare.gif" alt="Loading..." />
                                     </figure>
                                 </article>
                             </li>
@@ -563,7 +563,7 @@ function HeroSection() {
                             <li className="post post-categories" data-category="Design">
                                 <article>
                                     <figure>
-                                        <img className="pg-img" src="one5.gif" alt="Loading..." />
+                                        <img className="pg-img" src="srushti_patel.gif" alt="Loading..." />
                                     </figure>
                                 </article>
                             </li>
@@ -571,6 +571,13 @@ function HeroSection() {
                                 <article>
                                     <figure>
                                         <img className="pg-img" src="ingenious_architectso_logo.png" alt="Loading..." />
+                                    </figure>
+                                </article>
+                            </li>
+                            <li className="post post-categories" data-category="Design">
+                                <article>
+                                    <figure>
+                                        <img className="pg-img" src="one5.gif" alt="Loading..." />
                                     </figure>
                                 </article>
                             </li>
