@@ -44,7 +44,7 @@ function HeroSection() {
     //     };
     // }
 
-    const fileURL = 'http://localhost:3000/Srushti_Patel_Resume.pdf';
+    const fileURL = 'https://srushtipatel.netlify.app/Srushti_Patel_Resume.pdf';
 
     const downloadFileAtURL = (url) => {
         const fileName = url.split('/').pop()
