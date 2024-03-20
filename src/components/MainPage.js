@@ -32,18 +32,6 @@ function HeroSection() {
         e.target.reset()
     };
 
-    // const App = () => {
-    //     const onButtonClick = () => {
-    //         const pdfUrl = "Sample.pdf";
-    //         const link = document.createElement("a");
-    //         link.href = pdfUrl;
-    //         link.download = "Srushti_Patel.pdf";
-    //         document.body.appendChild(link);
-    //         link.click();
-    //         document.body.removeChild(link);
-    //     };
-    // }
-
     const fileURL = 'https://srushtipatel.netlify.app/Srushti_Patel_Resume.pdf';
 
     const downloadFileAtURL = (url) => {
@@ -72,12 +60,12 @@ function HeroSection() {
                     </div>
                     <div id="header-nav" className="snavbar navbar-collapse">
                         <ul className="navbar-nav">
-                            <li className="nav-item"><Link smooth to="intro-sec" className="nav-link" activeClassName="active">HOME</Link></li>
-                            <li className="nav-item"><Link smooth to="about" className="nav-link" activeClassName="active">ABOUT ME</Link></li>
-                            <li className="nav-item"><Link smooth to="services" className="nav-link" activeClassName="active">WHAT I DO</Link></li>
-                            <li className="nav-item"><Link smooth to="resume" className="nav-link" activeClassName="active">RESUME</Link></li>
-                            <li className="nav-item"><Link smooth to="portfolio" className="nav-link" activeClassName="active">PORTFOLIO</Link></li>
-                            <li className="nav-item"><Link smooth to="contact" className="nav-link" activeClassName="active">CONTACT</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="intro-sec" className="nav-link" activeClass="active" spy={true}>HOME</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="about" className="nav-link" activeClass="active" spy={true}>ABOUT ME</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="services" className="nav-link" activeClass="active" spy={true}>WHAT I DO</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="resume" className="nav-link" activeClass="active" spy={true}>RESUME</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="portfolio" className="nav-link" activeClass="active" spy={true}>PORTFOLIO</Link></li>
+                            <li className="nav-item"><Link smooth={true} to="contact" className="nav-link" activeClass="active" spy={true}>CONTACT</Link></li>
                         </ul>
                     </div>
                     <ul className="social">
@@ -88,11 +76,10 @@ function HeroSection() {
                     </ul>
                 </nav>
             </header>
+
             {/* Intro Section */}
-            {/* <ParticlesBg /> */}
             <section id="intro-sec" className="intro-sec">
                 <div className="intro-wrap">
-                    {/* <div className="bg-overlay"></div> */}
                     <div className="in-row">
                         <div className="text-center">
                             <p className="intro-p">Welcome</p>
@@ -101,7 +88,6 @@ function HeroSection() {
                                 <ul class="typed-strings">
                                     <li><span>Srushti Patel.</span></li>
                                     <li><span>UI/UX Developer.</span></li>
-                                    {/* <li><span>React Developer.</span></li> */}
                                     <li><span>Web Developer.</span></li>
                                     <li><span>Designer.</span></li>
                                 </ul>
@@ -120,6 +106,7 @@ function HeroSection() {
                     <span class="animated"><i class="fa fa-chevron-down"></i></span>
                 </Link>
             </section>
+
             {/* About Section */}
             <section id="about" className="about-sec">
                 <div className="ab-container">
@@ -166,9 +153,6 @@ function HeroSection() {
                                     </li>
                                 </ul>
                                 <div className="ab-btn">
-                                    {/* <button onClick={onButtonClick} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>
-                                        DOWNLOAD CV
-                                    </button> */}
                                     <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                                 </div>
                             </div>
@@ -268,9 +252,6 @@ function HeroSection() {
                                 </div>
                             </div>
                             <div class="re-btn">
-                                {/* <Link to="./Srushti_Patel_Resume.pdf" target="_blank" download>
-                                    <Button className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
-                                </Link> */}
                                 <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                             </div>
                         </div>
@@ -380,9 +361,6 @@ function HeroSection() {
                             </div>
                         </div>
                         <div className="re-btn">
-                            {/* <Link to="./Srushti_Patel.pdf" target="_blank" download>
-                                <Button className='btn' buttonStyle='btn--outline' buttonSize='btn--medium'>DOWNLOAD CV</Button>
-                            </Link> */}
                             <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--outline' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                         </div>
                     </div>

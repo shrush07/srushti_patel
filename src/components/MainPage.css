@@ -881,9 +881,9 @@ input[type="radio"] {
     color: #456874;
     border-bottom: 3px solid #456874;
 }
-[value="All"]:checked ~ .posts [data-category] {
+/* [value="All"]:checked ~ .posts [data-category] {
     display: block;
-}
+} */
 [value="Design"]:checked ~ .posts .post:not([data-category~="Design"]),
 [value="Brand"]:checked ~ .posts .post:not([data-category~="Brand"]),
 [value="Animation"]:checked ~ .posts .post:not([data-category~="Animation"]){
