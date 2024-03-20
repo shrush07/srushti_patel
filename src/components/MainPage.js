@@ -44,6 +44,18 @@ function HeroSection() {
     //     };
     // }
 
+    const fileURL = 'http://localhost:3000/Srushti_Patel_Resume.pdf';
+
+    const downloadFileAtURL = (url) => {
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click();
+        aTag.remove();
+    }
+
     return (
         <div className="herosection">
             {/* Header Section */}
@@ -61,11 +73,11 @@ function HeroSection() {
                     <div id="header-nav" className="snavbar navbar-collapse">
                         <ul className="navbar-nav">
                             <li className="nav-item"><Link smooth to="intro-sec" className="nav-link" activeClassName="active">HOME</Link></li>
-                            <li className="nav-item"><Link smooth to="about" className="nav-link">ABOUT ME</Link></li>
-                            <li className="nav-item"><Link smooth to="services" className="nav-link">WHAT I DO</Link></li>
-                            <li className="nav-item"><Link smooth to="resume" className="nav-link">RESUME</Link></li>
-                            <li className="nav-item"><Link smooth to="portfolio" className="nav-link">PORTFOLIO</Link></li>
-                            <li className="nav-item"><Link smooth to="contact" className="nav-link">CONTACT</Link></li>
+                            <li className="nav-item"><Link smooth to="about" className="nav-link" activeClassName="active">ABOUT ME</Link></li>
+                            <li className="nav-item"><Link smooth to="services" className="nav-link" activeClassName="active">WHAT I DO</Link></li>
+                            <li className="nav-item"><Link smooth to="resume" className="nav-link" activeClassName="active">RESUME</Link></li>
+                            <li className="nav-item"><Link smooth to="portfolio" className="nav-link" activeClassName="active">PORTFOLIO</Link></li>
+                            <li className="nav-item"><Link smooth to="contact" className="nav-link" activeClassName="active">CONTACT</Link></li>
                         </ul>
                     </div>
                     <ul className="social">
@@ -157,9 +169,7 @@ function HeroSection() {
                                     {/* <button onClick={onButtonClick} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>
                                         DOWNLOAD CV
                                     </button> */}
-                                    <Link to="./Srushti_Patel_Resume.pdf" target="_blank" download>
-                                        <Button className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
-                                    </Link>
+                                    <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                                 </div>
                             </div>
                         </div>
@@ -258,9 +268,10 @@ function HeroSection() {
                                 </div>
                             </div>
                             <div class="re-btn">
-                                <Link to="./Srushti_Patel_Resume.pdf" target="_blank" download>
+                                {/* <Link to="./Srushti_Patel_Resume.pdf" target="_blank" download>
                                     <Button className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
-                                </Link>
+                                </Link> */}
+                                <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--primary' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                             </div>
                         </div>
                     </div>
@@ -369,9 +380,10 @@ function HeroSection() {
                             </div>
                         </div>
                         <div className="re-btn">
-                            <Link to="./Srushti_Patel.pdf" target="_blank" download>
+                            {/* <Link to="./Srushti_Patel.pdf" target="_blank" download>
                                 <Button className='btn' buttonStyle='btn--outline' buttonSize='btn--medium'>DOWNLOAD CV</Button>
-                            </Link>
+                            </Link> */}
+                            <Button onClick={() => { downloadFileAtURL(fileURL) }} className='btn' buttonStyle='btn--outline' buttonSize='btn--medium'>DOWNLOAD CV</Button>
                         </div>
                     </div>
                 </div>
