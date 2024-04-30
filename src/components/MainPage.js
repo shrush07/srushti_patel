@@ -299,7 +299,7 @@ function HeroSection() {
                         <div className="edu-con">
                             <h2 className="edh">My experience</h2>
                             <div className="edu-container">
-                                <p className="re-ep">2020 - Present</p>
+                                <p className="re-ep">12/2020 - 03/2024</p>
                                 <h2 className="edh3">UI UX Developer</h2>
                                 <p className="ed-cn">One5 Digital
                                     <span className="espan">Melbourne, VIC, Australia.</span>
