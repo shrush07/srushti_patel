@@ -93,7 +93,7 @@ function HeroSection() {
                                 </ul>
                             </div>
                             <h2><span className="typed"></span></h2>
-                            <p className="intro-p" style={{ marginTop: '1rem' }}>based in Vadodara, India.</p>
+                            <p className="intro-p" style={{ marginTop: '1rem' }}>based in Ontario, Canada.</p>
                             <div className="intro-btn">
                                 <Link smooth to="contact">
                                     <Button className='btn' buttonStyle='btn--outline2' buttonSize='btn--large'>HIRE ME</Button>
