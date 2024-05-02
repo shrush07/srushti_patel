@@ -297,7 +297,7 @@ function HeroSection() {
                             </div>
                         </div>
                         <div className="edu-con">
-                            <h2 className="edh">My experience</h2>
+                            <h2 className="edh">My Experience</h2>
                             <div className="edu-container">
                                 <p className="re-ep">12/2020 - 03/2024</p>
                                 <h2 className="edh3">UI UX Developer</h2>
