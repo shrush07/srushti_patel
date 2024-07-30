@@ -352,14 +352,14 @@ function HeroSection() {
                                 <div className="sr-pbar">
                                     <div className="sr-pb" style={{ width: '90%' }}></div>
                                 </div>
-                                <p className="srt-p">Bootstrap
-                                    <span className="tspan">80%</span>
+                                <p className="srt-p">Angular JS
+                                    <span className="tspan">60%</span>
                                 </p>
                                 <div className="sr-pbar">
                                     <div className="sr-pb" style={{ width: '80%' }}></div>
                                 </div>
-                                <p className="srt-p">Angular JS
-                                    <span className="tspan">60%</span>
+                                <p className="srt-p">Express JS
+                                    <span className="tspan">50%</span>
                                 </p>
                                 <div className="sr-pbar">
                                     <div className="sr-pb" style={{ width: '50%' }}></div>
