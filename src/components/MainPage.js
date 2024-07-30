@@ -342,21 +342,21 @@ function HeroSection() {
                                     <span className="tspan">50%</span>
                                 </p>
                                 <div className="sr-pbar">
-                                    <div className="sr-pb" style={{ width: '60%' }}></div>
+                                    <div className="sr-pb" style={{ width: '50%' }}></div>
                                 </div>
                             </div>
                             <div className="sr-tool">
                                 <p className="srt-p">HTML/CSS
-                                    <span className="tspan">90%</span>
+                                    <span className="tspan">80%</span>
                                 </p>
                                 <div className="sr-pbar">
-                                    <div className="sr-pb" style={{ width: '90%' }}></div>
+                                    <div className="sr-pb" style={{ width: '80%' }}></div>
                                 </div>
                                 <p className="srt-p">Angular JS
                                     <span className="tspan">60%</span>
                                 </p>
                                 <div className="sr-pbar">
-                                    <div className="sr-pb" style={{ width: '80%' }}></div>
+                                    <div className="sr-pb" style={{ width: '60%' }}></div>
                                 </div>
                                 <p className="srt-p">Express JS
                                     <span className="tspan">50%</span>
@@ -368,7 +368,7 @@ function HeroSection() {
                                     <span className="tspan">50%</span>
                                 </p>
                                 <div className="sr-pbar">
-                                    <div className="sr-pb" style={{ width: '60%' }}></div>
+                                    <div className="sr-pb" style={{ width: '50%' }}></div>
                                 </div>
                             </div>
                         </div>
