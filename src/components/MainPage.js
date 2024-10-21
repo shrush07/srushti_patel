@@ -304,7 +304,7 @@ function HeroSection() {
                                 <p className="ed-cn">Ingenious Technologies
                                     <span className="espan">Vadodara, Gujarat, India.</span>
                                 </p>
-                                // <p className="edu-d">Design and develop websites, logo design, experience with software design.</p>
+                                {/* <p className="edu-d">Design and develop websites, logo design, experience with software design.</p> */}
                             </div>
                             <div className="edu-container">
                                 <p className="re-ep">12/2020 - 03/2024</p>
@@ -312,7 +312,7 @@ function HeroSection() {
                                 <p className="ed-cn">One5 Digital
                                     <span className="espan">Melbourne, VIC, Australia.</span>
                                 </p>
-                                // <p className="edu-d">Design and develop websites, logo design, experience with software design.</p>
+                                {/* <p className="edu-d">Design and develop websites, logo design, experience with software design.</p> */}
                             </div>
                             <div className="edu-container">
                                 <p className="re-ep">05/2019 - 07/2019</p>
@@ -320,7 +320,7 @@ function HeroSection() {
                                 <p className="ed-cn">RAV infotech
                                     <span className="espan">Vadodara, Gujarat, India</span>
                                 </p>
-                                // <p className="edu-d">Learn more about Web Designing, .Net, and JavaScript.</p>
+                                {/* <p className="edu-d">Learn more about Web Designing, .Net, and JavaScript.</p> */}
                             </div>
                         </div>
                     </div>
