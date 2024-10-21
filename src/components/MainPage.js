@@ -145,11 +145,11 @@ function HeroSection() {
                                     </li>
                                     <li className="ab-cli">
                                         <span className="ab-cspan">Contact:</span>
-                                        <a href="tel:9714889403" className="ab-c">+91 9714889403</a>
+                                        <a href="tel:2499790722" className="ab-c">+1 (249) 979-0722</a>
                                     </li>
                                     <li className="ab-cli b0">
                                         <span className="ab-cspan">From:</span>
-                                        Vadodara, Gujarat, India
+                                        Sudbury, Ontario, Canada
                                     </li>
                                 </ul>
                                 <div className="ab-btn">
@@ -299,12 +299,20 @@ function HeroSection() {
                         <div className="edu-con">
                             <h2 className="edh">My Experience</h2>
                             <div className="edu-container">
+                                <p className="re-ep">03/2020 - Present</p>
+                                <h2 className="edh3">UI UX Developer</h2>
+                                <p className="ed-cn">Ingenious Technologies
+                                    <span className="espan">Vadodara, Gujarat, India.</span>
+                                </p>
+                                // <p className="edu-d">Design and develop websites, logo design, experience with software design.</p>
+                            </div>
+                            <div className="edu-container">
                                 <p className="re-ep">12/2020 - 03/2024</p>
                                 <h2 className="edh3">UI UX Developer</h2>
                                 <p className="ed-cn">One5 Digital
                                     <span className="espan">Melbourne, VIC, Australia.</span>
                                 </p>
-                                <p className="edu-d">Design and develop websites, logo design, experience with software design.</p>
+                                // <p className="edu-d">Design and develop websites, logo design, experience with software design.</p>
                             </div>
                             <div className="edu-container">
                                 <p className="re-ep">05/2019 - 07/2019</p>
@@ -312,7 +320,7 @@ function HeroSection() {
                                 <p className="ed-cn">RAV infotech
                                     <span className="espan">Vadodara, Gujarat, India</span>
                                 </p>
-                                <p className="edu-d">Learn more about Web Designing, .Net, and JavaScript.</p>
+                                // <p className="edu-d">Learn more about Web Designing, .Net, and JavaScript.</p>
                             </div>
                         </div>
                     </div>
@@ -601,7 +609,7 @@ function HeroSection() {
                         <div className="con-p1 order1">
                             <p className="cn-p">
                                 <span className="cspan"><i class="fas fa-phone-alt"></i></span>
-                                <a className="con-a" href="tel:9714889403">+(91) 9714889403</a>
+                                <a className="con-a" href="tel:2499790722">+1 (249) 979-0722</a>
                             </p>
                             <p className="cn-p2">
                                 <span className="cspan"><i class="fas fa-envelope"></i></span>
