@@ -87,6 +87,7 @@ function HeroSection() {
                                 <div className="static-string">I'm a</div>
                                 <ul class="typed-strings">
                                     <li><span>Srushti Patel.</span></li>
+                                    <li><span>Jr. Full-Stack Developer.</span></li>
                                     <li><span>UI/UX Developer.</span></li>
                                     <li><span>Web Developer.</span></li>
                                     <li><span>Designer.</span></li>
@@ -120,10 +121,10 @@ function HeroSection() {
                         <div className="ab-detail">
                             <h2 className="ab-head2">I'm
                                 <span className="ab-hspan"> Srushti Patel </span>
-                                a UI/UX Developer
+                                a Jr. Full-Stack Developer
                             </h2>
                             <p className="ab-p">
-                                I'm a UI/UX developer with a passion for creating user-friendly and effective interfaces that satisfy business and
+                                I'm a Jr. FUll-Stack developer with a passion for creating user-friendly and effective interfaces that satisfy business and
                                 user's needs at the same time. To work in a good organization, learn, and contribute to the organization with my professional knowledge
                                 and soft skills. I can continuously learn and improve the necessary skills and expertise needed
                                 to help push both the company and myself forward into success.
@@ -300,7 +301,7 @@ function HeroSection() {
                             <h2 className="edh">My Experience</h2>
                             <div className="edu-container">
                                 <p className="re-ep">03/2020 - Present</p>
-                                <h2 className="edh3">UI UX Developer</h2>
+                                <h2 className="edh3">Jr. Full-Stack Developer</h2>
                                 <p className="ed-cn">Ingenious Technologies
                                     <span className="espan">Vadodara, Gujarat, India.</span>
                                 </p>
