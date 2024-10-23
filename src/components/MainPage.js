@@ -124,7 +124,7 @@ function HeroSection() {
                                 a Jr. Full-Stack Developer
                             </h2>
                             <p className="ab-p">
-                                I'm a Jr. FUll-Stack developer with a passion for creating user-friendly and effective interfaces that satisfy business and
+                                I'm a Jr. Full-Stack developer with a passion for creating user-friendly and effective interfaces that satisfy business and
                                 user's needs at the same time. To work in a good organization, learn, and contribute to the organization with my professional knowledge
                                 and soft skills. I can continuously learn and improve the necessary skills and expertise needed
                                 to help push both the company and myself forward into success.
