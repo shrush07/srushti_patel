@@ -89,7 +89,7 @@ function HeroSection() {
                                     <li><span>Srushti Patel.</span></li>
                                     <li><span>Full Stack Developer.</span></li>
                                     <li><span>Web Developer.</span></li>
-                                    <li><span>UI/UX Designer.</span></li>
+                                    <li><span>Designer.</span></li>
                                 </ul>
                             </div>
                             <h2><span className="typed"></span></h2>
