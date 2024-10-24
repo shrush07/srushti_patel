@@ -87,9 +87,9 @@ function HeroSection() {
                                 <div className="static-string">I'm a</div>
                                 <ul class="typed-strings">
                                     <li><span>Srushti Patel.</span></li>
-                                    <li><span>UI/UX Developer.</span></li>
+                                    <li><span>Full Stack Developer.</span></li>
                                     <li><span>Web Developer.</span></li>
-                                    <li><span>Designer.</span></li>
+                                    <li><span>UI/UX Designer.</span></li>
                                 </ul>
                             </div>
                             <h2><span className="typed"></span></h2>
@@ -120,10 +120,10 @@ function HeroSection() {
                         <div className="ab-detail">
                             <h2 className="ab-head2">I'm
                                 <span className="ab-hspan"> Srushti Patel </span>
-                                a UI/UX Developer
+                                a Full Stack Developer
                             </h2>
                             <p className="ab-p">
-                                I'm a UI/UX developer with a passion for creating user-friendly and effective interfaces that satisfy business and
+                                I'm a Full stack developer with a passion for creating user-friendly and effective interfaces that satisfy business and
                                 user's needs at the same time. To work in a good organization, learn, and contribute to the organization with my professional knowledge
                                 and soft skills. I can continuously learn and improve the necessary skills and expertise needed
                                 to help push both the company and myself forward into success.
@@ -299,16 +299,16 @@ function HeroSection() {
                         <div className="edu-con">
                             <h2 className="edh">My Experience</h2>
                             <div className="edu-container">
-                                <p className="re-ep">06/2023 - Present</p>
-                                <h2 className="edh3">UI/UX Developer</h2>
+                                <p className="re-ep">04/2022 - Present</p>
+                                <h2 className="edh3">Full Stack Developer</h2>
                                 <p className="ed-cn">Ingenious Technologies
                                     <span className="espan">Vadodara, Gujarat, India.</span>
                                 </p>
                                 {/* <p className="edu-d">Design and develop websites, logo design, experience with software design.</p> */}
                             </div>
                             <div className="edu-container">
-                                <p className="re-ep">12/2020 - 03/2024</p>
-                                <h2 className="edh3">UI UX Designer</h2>
+                                <p className="re-ep">12/2020 - 03/2022</p>
+                                <h2 className="edh3">UI UX Developer</h2>
                                 <p className="ed-cn">One5 Digital
                                     <span className="espan">Melbourne, VIC, Australia.</span>
                                 </p>
